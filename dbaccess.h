@@ -22,8 +22,10 @@ class dbAccess
 {
 public:
     dbAccess();
+    ~dbAccess();
 
     bool init();
+    bool addRecord(const DelayedTravel dt);
 
 
 private:
